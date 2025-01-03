@@ -1,3 +1,4 @@
+@order_1
 Feature: Verifying TNA Login Page Functionality
 
   Background:
