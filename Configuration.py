@@ -1,4 +1,5 @@
 # Configuration
+from datetime import datetime
 
 # URLs
 DEV_URL = "http://158.176.9.148:30026/#/login"
@@ -34,3 +35,17 @@ PLATFORM_EMAIL_XPATH = "//input[@name='email']"
 PLATFORM_PASSWORD_XPATH = "//input[@name='newpassword']"
 PLATFORM_CONFIRM_PASSWORD_XPATH = "//input[@name='retypepassword']"
 PLATFORM_SAVE_BUTTON_XPATH = "//button[contains(text(),'Save')]"
+
+# Platform admin credentials
+New_PFA_Username1 = "platform_admin"
+New_PFA_Username = f"{New_PFA_Username1}{datetime.now().strftime('%H.%M.%S')}"
+
+
+Platform_admin_email = "platform_admin@gmail.com"
+
+# Platform admin change screen
+PFA_Newpwd_Locator = "//input[@id='password-field4']"
+PFA_ConfrimNewpwd_Locator ="//input[@id='password-field5']"
+PFA_SaveChanges_Locator = "//button[contains(text(),'Save Changes')]"
+
+

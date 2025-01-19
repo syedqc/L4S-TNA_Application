@@ -1,0 +1,1 @@
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":10,"buildName":"TNA Application #10","buildUrl":"http://localhost:8080/job/L4S-TNA%20Application/10/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/L4S-TNA%20Application/10/allure"}]
